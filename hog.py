@@ -326,8 +326,6 @@ def run_experiments():
     if False:  
         print('final_strategy win rate:', average_win_rate(final_strategy))
 
-    "*** You may add additional experiments as you wish ***"
-
 
 def bacon_strategy(score, opponent_score, margin=8, num_rolls=4):
     """This strategy rolls 0 dice if that gives at least MARGIN points, and
